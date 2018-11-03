@@ -67,7 +67,7 @@ for uj=1:uN_it
     
     H_r_1= (sqrt(1)*(randn(uMr,uM1)));
     H_r_2= (sqrt(1)*(randn(uMr,uM2)));
-    
+     %here the communications distance and transmit power are assumed to be the same across nodes, and hence, are canceled in SIR assessment.
     
    
     for u1=1:length(uSNR_db)
