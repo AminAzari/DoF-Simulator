@@ -59,7 +59,7 @@ while(uRR)
         %     uMn=5;
         %     uMr=5;
         
-        
+         %here the communications distance and transmit power are assumed to be the same across nodes, and hence, are canceled in SIR assessment.
         
         H_1_1= (sqrt(1)*(randn(uMn,uMn)));
         H_1_2= (sqrt(1)*(randn(uMn,uMn)));
